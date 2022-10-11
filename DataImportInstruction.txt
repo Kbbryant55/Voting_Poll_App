@@ -1,0 +1,4 @@
+To import Polls data into your mongoDB database.
+Make sure MongoDB is running then
+
+run 'mongosh pollAPI < pollsJson.js' from the command line 
