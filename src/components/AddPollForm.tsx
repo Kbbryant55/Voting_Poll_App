@@ -19,7 +19,9 @@ const AddPollForm = () => {
   };
 
   const handleAddOption = (text: string) => {
-    if (pollOptions.includes(text)) {
+    if (text == "") {
+      setError(`Please enter in a value.`);
+    } else if (pollOptions.includes(text)) {
       setError(
         `"${text}" is already an option. Please enter in a different value.`
       );
