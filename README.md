@@ -1,3 +1,7 @@
+# Summary
+
+This app implements the MERN tech stack (MongoDB, Express, React, and NodeJs) in order to create a poll in real time.
+
 # Prerequisites
 
 1. Node version 18.10.0
